@@ -1,8 +1,5 @@
 package com.example;
 
-import static org.junit.Assert.assertTrue;
-import static org.mockito.Mockito.*;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -33,7 +30,6 @@ public class AppTest
     @Test
     public void SubtractTest()
     {
-        Assertions.fail("fail wowowowow");
         Assertions.assertEquals(-2, subtractor.subtract(3,5));
     }
 }
