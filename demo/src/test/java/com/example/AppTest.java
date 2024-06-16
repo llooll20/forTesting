@@ -33,7 +33,7 @@ public class AppTest
     @Test
     public void SubtractTest()
     {
-        Assertions.fail();
+        Assertions.fail("this conconocn is failed");
         Assertions.assertEquals(-2, subtractor.subtract(3,5));
     }
 }
